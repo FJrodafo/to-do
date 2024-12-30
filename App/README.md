@@ -1,12 +1,12 @@
 ## Index
 
-1. [Introduction](#introduction)
+1. [Attribution](#attribution)
 2. [Project Structure](#project-structure)
 3. [Download the code](#download-the-code)
-4. [Run with Docker](#run-with-docker)
-4. [Resources](#resources)
+4. [Using Docker](#using-docker)
+5. [Resources](#resources)
 
-## Introduction
+## Attribution
 
 This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/
 
@@ -82,7 +82,29 @@ git clone https://gitlab.com/FJrodafo/to-do.git
 git clone https://bitbucket.org/fjrodafo/to-do.git
 ```
 
-## Run with Docker
+## Using Docker
+
+### Run with Docker Compose
+
+Build the container:
+
+```shell
+docker compose build
+```
+
+Run the container:
+
+```shell
+docker compose up -d
+```
+
+Stop the Container:
+
+```shell
+docker compose down
+```
+
+### Build Docker image on your own
 
 If you don't have Node v18 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile).
 
@@ -104,7 +126,9 @@ After the build completes, you can run your container with the following command
 docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=to-do,target=/etc/todos to-do
 ```
 
-After a few seconds, open your web browser to http://localhost:3000
+> [!NOTE]
+> 
+> After a few seconds, open your web browser to http://localhost:3000
 
 ## Resources
 
