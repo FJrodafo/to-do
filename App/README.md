@@ -86,6 +86,12 @@ git clone https://bitbucket.org/fjrodafo/to-do.git
 
 ### Run with Docker Compose
 
+Make sure you have created a Docker volume named `to-do` before building the application with the following command:
+
+```shell
+docker volume create to-do
+```
+
 Build the container:
 
 ```shell
