@@ -4,6 +4,9 @@
 2. [Project Structure](#project-structure)
 3. [Download the code](#download-the-code)
 4. [Using Docker](#using-docker)
+    * [Run with Docker Compose](#run-with-docker-compose)
+    * [Build Docker image on your own](#build-docker-image-on-your-own)
+    * [Pull the image from Docker Hub/GitHub Packages](#pull-the-image-from-docker-hubgithub-packages)
 5. [Resources](#resources)
 
 ## Attribution
@@ -136,11 +139,29 @@ docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=to-do,target=/etc/tod
 > 
 > After a few seconds, open your web browser to http://localhost:3000
 
+### Pull the image from Docker Hub/GitHub Packages
+
+There is a repository of this same project published in [Docker Hub](https://hub.docker.com/r/fjrodafo/to-do).
+
+In addition to Docker Hub, this application is available in [GitHub Packages](https://github.com/FJrodafo/to-do/pkgs/container/to-do).
+
+```sh
+# Docker Hub
+docker pull fjrodafo/to-do:v1.0.0
+
+# GitHub Packages
+docker pull ghcr.io/fjrodafo/to-do:v1.0.0
+```
+
+Pull the latest version with the following command:
+
+```sh
+docker pull fjrodafo/to-do:latest
+```
+
 ## Resources
 
 To see a more detailed explanation of how this Docker project works, visit the following repository at [GitHub](https://github.com/FJrodafo/University/blob/main/Cheat_sheets/Docker/README.md#overview-of-the-get-started-guide)/[GitLab](https://gitlab.com/FJrodafo/University/-/blob/main/Cheat_sheets/Docker/README.md?ref_type=heads#overview-of-the-get-started-guide).
-
-There is a repository of this same project published on Docker Hub at https://hub.docker.com/r/fjrodafo/to-do
 
 <link rel="stylesheet" href="./README.css">
 <a class="scrollup" href="#top">&#x1F53C</a>
