@@ -1,4 +1,7 @@
 ```
+* Commit: 25789fc - New VERSION.md
+| Author: fjrodafo - Thu, 13 Feb 2025 00:00:30 +0000
+| 
 * Commit: c7f1d9a - Update FUNDING.yml
 | Author: fjrodafo - Wed, 12 Feb 2025 23:01:55 +0000
 | 
