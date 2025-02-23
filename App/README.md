@@ -4,9 +4,9 @@
 2. [Project Structure](#project-structure)
 3. [Download the code](#download-the-code)
 4. [Using Docker](#using-docker)
-    * [Run with Docker Compose](#run-with-docker-compose)
-    * [Build Docker image on your own](#build-docker-image-on-your-own)
-    * [Pull the image from Docker Hub/GitHub Packages](#pull-the-image-from-docker-hubgithub-packages)
+    1. [Run with Docker Compose](#run-with-docker-compose)
+    2. [Build Docker image on your own](#build-docker-image-on-your-own)
+    3. [Pull the image from Docker Hub/GitHub Packages](#pull-the-image-from-docker-hubgithub-packages)
 5. [Resources](#resources)
 
 ## Attribution
