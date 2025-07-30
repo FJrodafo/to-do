@@ -151,7 +151,7 @@ docker pull fjrodafo/to-do:latest
 
 ## Resources
 
-To see a more detailed explanation of how this Docker project works, visit the following repository on [GitHub](https://github.com/FJrodafo/University/blob/main/Cheat_sheets/Docker/README.md#overview-of-the-get-started-guide).
+To see a more detailed explanation of how this Docker project works, visit the following repository at https://github.com/FJrodafo/University/blob/main/Cheat_sheets/Docker/README.md#overview-of-the-get-started-guide.
 
 <link rel="stylesheet" href="./README.css">
 <a class="scrollup" href="#top">&#x1F53C</a>
