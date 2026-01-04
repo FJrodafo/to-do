@@ -135,7 +135,7 @@ There is a repository of this same project published in [Docker Hub](https://hub
 
 In addition to Docker Hub, this application is available in [GitHub Packages](https://github.com/FJrodafo/to-do/pkgs/container/to-do).
 
-```sh
+```shell
 # Docker Hub
 docker pull fjrodafo/to-do:v1.0.0
 
@@ -145,7 +145,7 @@ docker pull ghcr.io/fjrodafo/to-do:v1.0.0
 
 Pull the latest version with the following command:
 
-```sh
+```shell
 docker pull fjrodafo/to-do:latest
 ```
 
