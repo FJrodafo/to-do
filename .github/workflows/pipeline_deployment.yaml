@@ -17,6 +17,5 @@ jobs:
           node-version: "18"
 
       - name: Install dependencies
-        run: |
-          cd ./App
-          yarn install --production
+        working-directory: App
+        run: yarn install --production
